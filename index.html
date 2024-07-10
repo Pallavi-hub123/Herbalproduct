@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herbal</title>
+  <style> 
+          .container{
+            margin-top: 30px;
+            margin-bottom: 50px;
+          }
+          #Footer{
+         background-color: palevioletred;
+        }
+        .quicklinks li a{
+          text-decoration:none;
+          color: black;
+        }
+        .herbal-card a{ 
+          transition: all .5s ease-in-out;
+
+        }
+        .herbal-card:hover{
+          transform:scale(1.1);
+          box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+        }
+        .herbal-card a{
+          text-decoration: none;
+          color: black;
+        }
+        .padding-r{
+          padding-left: 30px;
+        }
+             
+        button{
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 80px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="Home ">
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light" >
+      <div class="container-fluid" style="background-color: palevioletred;">
+        <img src="assest/media/image/Logo.png" class="logo"style="height:50px;width: 120px;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item" >
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  aria-current="page" href="index.html#product">product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#video">video</a>
+            </li>
+             <li class="nav-item" style="padding-right: 700px;">
+              <a class="nav-link active" aria-current="page" href="index.html#aboutus">aboutus</a>
+            </li> 
+            <li class="nav-but">
+              <a class="btn btn-outline-light" href="login.html">SignIn</a>
+            </li> 
+            <li class="nav-item" style="padding-left: 5px;">
+              <a class="btn btn-outline-light" href="signup.html">Signup</a>
+            </li> 
+            
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="slider">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assest/media/image/image1.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assest/media/image/image2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assest/media/image/image3.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assest/media/image/shampoo.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <section id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+
+          <div class="card herbal-card" style="width: 18rem;transition: all .5s ease-in-out;">
+
+            <a href="skincare.html"><img src="assest/media/image/facewash.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <a href="skincare.html">
+                <h5 class="card-title"></h5>
+              </a>
+              <h3 class="card-text">skincare </h3>
+              <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4">
+          <div class="card herbal-card" style="width: 18rem;">
+            <a href="haircare.html"><img src="assest/media/image/biotique-hair.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <a href="haircare.html">
+                <h5 class="card-title"></h5>
+              </a>
+              <h3 class="card-text">Haircare</h3>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card herbal-card" style="width: 18rem;">
+            <a href="cosmetic.html"><img src="assest/media/image/cosemtics.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <a href="cosmetic.html">
+                <h5 class="Card-title"></h5>
+              </a>
+               <h3 class="card-text">Cosmetic</h3> 
+
+              <!--<a href="#" class="btn btn-primary">Go somewhere</a>  -->
+            </div>
+          </div>
+        </div>
+
+<section id="video">
+  <div class="container" style="p{text-align: center;}">
+    <div class="row">
+      <div class="col-lg-6">
+    <div class="herbal-card">
+        <video width="500" height="440" controls>
+          <source src="assest/media/image/video3.mp4" type="video/mp4" style="border: 9px;">
+        </video>
+      </div>
+    </div>
+      <div class="col-lg-6">
+        <p>
+          <br/>
+          <br/>
+          <br/>
+      
+          <p>PAPAYA: Papaya is a luscious tropical fruit known for its rejuvenating and healing benefits.
+           Full of vitamins, minerals and phytochemicals, papaya can act as a youth activator and 
+           natural exfoliator to revitalize skin without inflammation or irritation.</p>
+           <p>
+          NEEM: Neem has been used in India since antiquity for its life-sustaining powers. 
+          Also known as the healing plant for its antiseptic, anti-fungal and anti-bacterial properties.</p>
+          <p>WILD TURMERIC: Wild Turmeric is known to have antibacterial properties due to presence of certain bioactive ingredients.
+           Reduces dark circles, blemishes, acne, improving complexion and providing soft & glowing skin</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="Footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="assest/media/image/Logo.png" class="footer_logo" style="height:80px;width: 200px;padding-top: 30px;">
+
+              </div>
+
+              <div class="col-lg-4">
+                <section id="aboutus">
+                  <h4>aboutus</h4>
+                  <p>Biotique is a Beauty and Wellness company that produces premier
+                     Ayurvedic skin and hair care products. Our founder Vinita Jain's 
+                     passion for Nature and Ayurveda and her expertise in Bio-Technology
+                      gave birth to the brand.</p>
+                      <p>Brand claims that their products are made of 100% organically-pure,
+                         preservative-free ingredients from renewable resources .
+                         However, they do not give full label transparency for all ingredients used.</p>
+                </section>
+              
+              </div>
+                <div class="col-lg-4">
+                  <ul class="quicklinks">
+                    <div class="padding-r"style="padding-right:30px;">
+                    <h4>product</h4>
+                    <li><a href="skincare.html">skincare</a></li>
+                    <li><a href="haircare.html">haircare</a></li>
+                    <li><a href="cosmetic.html">cosmetic</a></li>
+                  </ul>
+                  </div>
+                </div>
+                  
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+  </section>
+</body>
+
+</html>
